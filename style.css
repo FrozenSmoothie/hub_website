@@ -1,35 +1,55 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #c6eef5;
+    font-size: 100%;
+    font-family: system-ui;
 }
 button {
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 20px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    translate: translate(-50%, -50%);
+    width: 24%;
+    height: 10%;
+    font-size: 50px;
+    font-weight: bold;
 }
-.button1 {
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    text-decoration-color: white;
+    font-weight: bold;
+}
+h1:hover {
+    text-decoration: underline;
+}
+.background {
+    background-image: url("https://th.bing.com/th/id/R.71ce819f3e164b1cdcc92f40e12e6b18?rik=L%2fWW3ooiXmwe%2bw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f9%2f3%2f861434-top-anime-background-1920x1080-xiaomi.jpg&ehk=WS7qUKVdVxN6N2cRCOAFZtxYANbgLmpRyeAf1RDxHOc%3d&risl=&pid=ImgRaw&r=0");
+    background-size: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #24ccbe;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.info {
+    font-size: 1.5em;
     background-color: white;
     color: black;
-    border: 2px solid #4CAF50;
+    border: 2px solid #4cacaf;
 }
-.button1:hover {
-    background-color: #4CAF50;
+.info:hover {
+    background-color: #24ccbe;
     color: white;
 }
-.button2 {
-    background-color: white;
-    color: black;
-    border: 2px solid #008CBA;
-}
-.button2:hover {
-    background-color: #008CBA;
+.info:active {
+    background-color: #9b4caf;
     color: white;
 }
